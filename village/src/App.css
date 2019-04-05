@@ -1,3 +1,37 @@
 .App {
   text-align: center;
 }
+
+.TopNavBar {
+  display: flex;
+  justify-content: center;
+
+}
+
+.NavBarWrapper {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ width: 850px;
+}
+
+.NavBarWrapper h2{
+  padding: 0 45px;
+
+ }
+
+.NavBarInsideWrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 400px;
+  text-decoration: none;
+  padding: 15px 10px;
+}
+
+.NavLink {
+  text-decoration: none;
+  color: black;
+  border: 1px solid red;
+  padding: 0 18px;
+  border-radius: 10px;
+}
